@@ -13,9 +13,9 @@ on:
         required: false
         default: "17"
       taskName:
-        description: "build.gradle task name: assemble[Flavor]Debug"
+        description: "build.gradle task name: assemble[Flavor]Release"
         required: false
-        default: "assembleDebug"
+        default: "assembleRelease"
 
 jobs:
   build:
